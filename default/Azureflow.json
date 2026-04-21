@@ -596,7 +596,7 @@
           "group" : "org.apache.nifi",
           "version" : "2.8.0"
         },
-        "type" : "org.apache.nifi.ssl.RestrictedSSLContextService"
+        "type" : "org.apache.nifi.ssl.SSLContextProvider"
       }, {
         "bundle" : {
           "artifact" : "nifi-standard-services-api-nar",
@@ -829,7 +829,7 @@
           "group" : "org.apache.nifi",
           "version" : "2.8.0"
         },
-        "type" : "org.apache.nifi.ssl.RestrictedSSLContextService"
+        "type" : "org.apache.nifi.ssl.SSLContextProvider"
       }, {
         "bundle" : {
           "artifact" : "nifi-standard-services-api-nar",
@@ -1083,7 +1083,7 @@
           "group" : "org.apache.nifi",
           "version" : "2.8.0"
         },
-        "type" : "org.apache.nifi.ssl.RestrictedSSLContextService"
+        "type" : "org.apache.nifi.ssl.SSLContextProvider"
       }, {
         "bundle" : {
           "artifact" : "nifi-standard-services-api-nar",
@@ -1354,7 +1354,7 @@
           "group" : "org.apache.nifi",
           "version" : "2.8.0"
         },
-        "type" : "org.apache.nifi.ssl.RestrictedSSLContextService"
+        "type" : "org.apache.nifi.ssl.SSLContextProvider"
       }, {
         "bundle" : {
           "artifact" : "nifi-standard-services-api-nar",
@@ -1660,7 +1660,7 @@
           "group" : "org.apache.nifi",
           "version" : "2.8.0"
         },
-        "type" : "org.apache.nifi.ssl.RestrictedSSLContextService"
+        "type" : "org.apache.nifi.ssl.SSLContextProvider"
       }, {
         "bundle" : {
           "artifact" : "nifi-standard-services-api-nar",
@@ -1769,7 +1769,7 @@
           "group" : "org.apache.nifi",
           "version" : "2.8.0"
         },
-        "type" : "org.apache.nifi.ssl.RestrictedSSLContextService"
+        "type" : "org.apache.nifi.ssl.SSLContextProvider"
       }, {
         "bundle" : {
           "artifact" : "nifi-standard-services-api-nar",
@@ -6714,8 +6714,8 @@
       "name" : "LogAttribute",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -994.7022222222224,
-        "y" : 401.36888888888893
+        "x" : -1448.0,
+        "y" : 408.0
       },
       "properties" : {
         "Log FlowFile Properties" : "true",
@@ -8344,6 +8344,6 @@
   "snapshotMetadata" : {
     "author" : "admin",
     "flowIdentifier" : "Azureflow",
-    "timestamp" : 1776769715487
+    "timestamp" : 1776771563430
   }
 }

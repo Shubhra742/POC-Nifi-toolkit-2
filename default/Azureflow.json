@@ -7972,8 +7972,8 @@
       "name" : "LogAttribute",
       "penaltyDuration" : "30 sec",
       "position" : {
-        "x" : -88.1066666666668,
-        "y" : 605.2444444444445
+        "x" : -528.0,
+        "y" : 616.0
       },
       "properties" : {
         "Log FlowFile Properties" : "true",
@@ -8455,6 +8455,6 @@
   "snapshotMetadata" : {
     "author" : "CN=admin, OU=NIFI",
     "flowIdentifier" : "Azureflow",
-    "timestamp" : 1776771532215
+    "timestamp" : 1776772399243
   }
 }
